@@ -2,6 +2,8 @@
 
 {% block body %}
     {% for post in posts %}
-        {% include '_card.html' %}
+        <div class="row">
+            {% include '_card.html' %}
+        </div>
     {% endfor %}
 {% endblock %}
