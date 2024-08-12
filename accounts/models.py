@@ -9,4 +9,8 @@ class User(AbstractUser):
         crop=['middle', 'center'],
         upload_to='profile'
     )
+    # post_set = 
+    # comment_set = 
+
+    # like_posts = 
 
